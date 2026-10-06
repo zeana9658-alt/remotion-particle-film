@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# Remotion build output
+dist/
+out/
+.remotion/
+
+# scratch from the QA loop - keep the approved CSV, ignore the frame dumps
+qa/*/motion/
+*.log
+
+# editors / OS
+.DS_Store
+.env

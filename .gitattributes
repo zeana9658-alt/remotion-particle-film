@@ -1,0 +1,13 @@
+# Normalise to LF so the repo is identical on every platform (PowerShell, Node and
+# the shader sources all read LF fine).
+* text=auto eol=lf
+
+# Media must never be line-ending or diff munged.
+*.png binary
+*.jpg binary
+*.otf binary
+*.ttf binary
+*.mp4 binary
+
+# Generated evidence: keep diffs readable.
+*.csv text

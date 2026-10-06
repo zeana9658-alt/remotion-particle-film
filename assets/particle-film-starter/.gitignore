@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the rendered output from Git but not videos you import into src/.
+out
+
+# QA frame dumps - keep the metrics CSV, drop the frames.
+qa/*/motion/
